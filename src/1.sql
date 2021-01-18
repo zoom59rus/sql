@@ -26,4 +26,4 @@
 -- VALUES (1, 2, 'New York City', 'New York');
 
 SELECT firstName, lastName, city, state
-FROM person INNER JOIN address on person.id = address.personid;
+FROM person LEFT JOIN address ON person.id = address.personid;
