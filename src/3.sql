@@ -15,7 +15,7 @@
 --        ('4', 'Max', '90000', null);
 
 -- SELECT *
--- FROM employee LEFT JOIN (SELECT * FROM employee WHERE employee.managerid!=null) AS foo ON employee.id=foo.managerid
+-- FROM employee LEFT JOIN (SELECT * FROM employee WHERE employee.managerId!=null) AS foo ON employee.id=foo.managerId
 
 SELECT employee.name
 FROM employee
